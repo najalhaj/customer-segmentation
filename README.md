@@ -63,6 +63,7 @@ To highlight how K-Means clustering enhances our understanding, let's examine th
 A basic scatter plot reveals a general positive correlation between income and total spending – higher income often correlates with higher expenditure. However, it doesn't clearly show distinct customer groups or reasons for variations.
 
 ![Income vs Total Spending Scatter Plot](assets/income_vs_spending_bivariate.png)
+
 *Figure 1: Basic relationship between customer income and overall spending.*
 
 #### 2. Multivariate View: Income vs. Total Spending vs. Education Level
@@ -70,6 +71,7 @@ A basic scatter plot reveals a general positive correlation between income and t
 Adding a third dimension, like Education Level (represented by different colors), starts to hint at some differentiation. We might observe that certain education groups tend to cluster in specific income/spending ranges. While this adds a layer of information, it's still challenging to define clear, actionable customer segments based solely on these visual cues. The boundaries between groups remain ambiguous.
 
 ![Income vs Total Spending vs Education Scatter Plot](assets/income_vs_spending_vs_education_multivariate.png)
+
 *Figure 2: Income and spending, colored by customer education level. While some patterns emerge, distinct actionable groups are not clearly defined.*
 
 #### 3. Clustered View: Income vs. Total Spending vs. Customer Segments
@@ -77,6 +79,7 @@ Adding a third dimension, like Education Level (represented by different colors)
 Here, the power of K-Means clustering becomes evident. By applying the clustering algorithm, we're able to automatically identify and delineate distinct customer segments that share similar underlying characteristics across all features. When these segments are visualized against Income and Total Spending, they reveal well-defined and often intuitively understandable groups. This plot clearly demonstrates how sophisticated analytical techniques provide precise, actionable insights beyond what simple visual inspection can offer. We can now clearly see how income and spending patterns contribute to the formation of specific customer segments.
 
 ![Income vs Total Spending vs Clusters Scatter Plot](assets/income_vs_spending_vs_clusters_output.png)
+
 *Figure 3: Income and spending, colored by the automatically generated customer segments. Distinct groups with unique income and spending profiles are clearly visible, enabling targeted marketing strategies.*
 
 ---
